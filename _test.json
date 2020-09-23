@@ -1,0 +1,32 @@
+{▾
+	"admin": {
+		"disabled": false,
+		"listen": "",
+		"enforce_origin": false,
+		"origins": [""],
+		"config": {
+			"persist": false
+		}
+	},
+	"logging": {
+		"sink": {
+			"writer": {•••}
+		},
+		"logs": {
+			"": {
+				"writer": {•••},
+				"encoder": {•••},
+				"level": "",
+				"sampling": {
+					"interval": 0,
+					"first": 0,
+					"thereafter": 0
+				},
+				"include": [""],
+				"exclude": [""]
+			}
+		}
+	},
+	"storage": {•••},
+	"apps": {•••}
+}

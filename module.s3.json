@@ -1,0 +1,11 @@
+{
+	"module": "s3",
+	"host": "",
+	"bucket": "",
+	"access_key": "",
+	"secret_key": "",
+	"prefix": "",
+	"redis_address": "",
+	"redis_password": "",
+	"redis_db": 0
+}

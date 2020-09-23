@@ -1,0 +1,20 @@
+{
+	"apps": {
+		"http": {
+			"servers": {
+				"myserver": {
+					"listen": [":443"],
+					"routes": [
+						{
+							"match": [{"host": ["localhost"]}],
+							"handle": [{
+								"handler": "file_server",
+								"root": "/var/www"
+							}]
+						}
+					]
+				}
+			}
+		}
+	}
+}
